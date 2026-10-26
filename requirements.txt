@@ -1,0 +1,6 @@
+torch>=2.0
+numpy
+pandas
+requests
+pymatgen>=2024
+tqdm

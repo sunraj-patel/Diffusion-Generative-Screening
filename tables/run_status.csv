@@ -1,0 +1,35 @@
+candidate,stage,file,status,source,path
+CMB-15,conv,ecut100_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/CMB-15/conv/ecut100_k0.out
+CMB-15,conv,ecut60_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/CMB-15/conv/ecut60_k0.out
+CMB-15,conv,ecut80_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/CMB-15/conv/ecut80_k0.out
+CMB-15,conv,ecut80_kcoarse.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/CMB-15/conv/ecut80_kcoarse.out
+CMB-15,conv,ecut80_kfine.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/CMB-15/conv/ecut80_kfine.out
+CMB-15,final,scf.out,"completed (JOB DONE, chain.done verified on cluster 2026-10-23; nscf parsed)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/CMB-15/final/scf.out
+CMB-15,relax,vcrelax.out,"completed (BFGS converged, verified by qe_parse)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/CMB-15/relax/vcrelax.out
+PRV-06,final,scf.out,"completed (JOB DONE, chain.done verified on cluster 2026-10-23; nscf parsed)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-06/final/scf.out
+PRV-06,relax,vcrelax.out,"completed (BFGS converged, verified by qe_parse)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-06/relax/vcrelax.out
+PRV-06_sc222,relax_rattled,relax.out,"STOPPED by user decision 2026-10-24 ~16:55 IST (SIGTERM to prterun; no pw.x left on node2/node3); NOT converged: 1 completed ionic step (bfgs step 0), second step interrupted; relax.done/relax.time files are exit markers only; outputs and restart data preserved in reports/cms_audit/backup_sc222_20261024 and on the cluster",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-06_sc222/relax_rattled/relax.out
+PRV-06_sc222,scf_perfect,scf.out,"scf_perfect completed 2026-10-24 (converged ""!"")",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-06_sc222/scf_perfect/scf.out
+PRV-07,conv,ecut100_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07/conv/ecut100_k0.out
+PRV-07,conv,ecut60_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07/conv/ecut60_k0.out
+PRV-07,conv,ecut80_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07/conv/ecut80_k0.out
+PRV-07,conv,ecut80_kcoarse.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07/conv/ecut80_kcoarse.out
+PRV-07,conv,ecut80_kfine.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07/conv/ecut80_kfine.out
+PRV-07,final,scf.out,"completed (JOB DONE, chain.done verified on cluster 2026-10-23; nscf parsed)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07/final/scf.out
+PRV-07,relax,vcrelax.out,"completed (BFGS converged, verified by qe_parse)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07/relax/vcrelax.out
+PRV-07_sc222,relax_rattled,relax.out,"STOPPED by user decision 2026-10-24 ~16:55 IST (SIGTERM to prterun; no pw.x left on node2/node3); NOT converged: 1 completed ionic step (bfgs step 0), second step interrupted; relax.done/relax.time files are exit markers only; outputs and restart data preserved in reports/cms_audit/backup_sc222_20261024 and on the cluster",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07_sc222/relax_rattled/relax.out
+PRV-07_sc222,scf_perfect,scf.out,"scf_perfect completed 2026-10-24 (converged ""!"")",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-07_sc222/scf_perfect/scf.out
+PRV-09,final,nscf.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-09/final/nscf.out
+PRV-09,final,scf.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-09/final/scf.out
+PRV-09,relax,vcrelax.out,"completed (BFGS converged, verified by qe_parse)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-09/relax/vcrelax.out
+PRV-11,conv,ecut100_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-11/conv/ecut100_k0.out
+PRV-11,conv,ecut60_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-11/conv/ecut60_k0.out
+PRV-11,conv,ecut80_k0.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-11/conv/ecut80_k0.out
+PRV-11,conv,ecut80_kcoarse.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-11/conv/ecut80_kcoarse.out
+PRV-11,conv,ecut80_kfine.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-11/conv/ecut80_kfine.out
+PRV-11,final,nscf.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-11/final/nscf.out
+PRV-11,final,scf.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-11/final/scf.out
+PRV-11,relax,vcrelax.out,"completed (BFGS converged, verified by qe_parse)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-11/relax/vcrelax.out
+PRV-14,final,nscf.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-14/final/nscf.out
+PRV-14,final,scf.out,completed,local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-14/final/scf.out
+PRV-14,relax,vcrelax.out,"completed (BFGS converged, verified by qe_parse)",local rsync of /scratch/sunraj/diffusion_ext/run (QE 7.3.1),dft_ext/results/PRV-14/relax/vcrelax.out

@@ -1,0 +1,32 @@
+&CONTROL
+ calculation='vc-relax', prefix='PRV-11_relax', outdir='./tmp', pseudo_dir='/scratch/sunraj/diffusion_ext/pseudo', verbosity='high', tprnfor=.true., tstress=.true.,
+ forc_conv_thr=1.1668e-03, etot_conv_thr=1.0d-5, nstep=200,
+/
+&SYSTEM
+ ibrav=0, nat=5, ntyp=3, ecutwfc=80, ecutrho=640, occupations='smearing', smearing='gaussian', degauss=0.002,
+/
+&ELECTRONS
+ conv_thr=1.0e-09, mixing_beta=0.5, electron_maxstep=300,
+/
+&IONS
+ ion_dynamics='bfgs',
+/
+&CELL
+ cell_dynamics='bfgs', press=0.0, press_conv_thr=0.5, cell_dofree='all', cell_factor=3.0,
+/
+ATOMIC_SPECIES
+ O 15.999 O.pbe-n-kjpaw_psl.1.0.0.UPF
+ Sr 87.62 Sr.pbe-spn-kjpaw_psl.1.0.0.UPF
+ Ti 47.867 Ti.pbe-spn-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+ 3.9459326700 0.0000000000 0.0000000000
+ 0.0000000000 3.9459326700 0.0000000000
+ 0.0000000000 0.0000000000 3.9459326700
+ATOMIC_POSITIONS crystal
+ Sr 0.0000000000 0.0000000000 0.0000000000
+ Ti 0.5000000000 0.5000000000 0.5000000000
+ O 0.5000000000 0.0000000000 0.5000000000
+ O 0.0000000000 0.5000000000 0.5000000000
+ O 0.5000000000 0.5000000000 0.0000000000
+K_POINTS automatic
+ 7 7 7 0 0 0

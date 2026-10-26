@@ -1,0 +1,9 @@
+\begin{tabular}{@{}lrrrrrrr@{}}\toprule
+ Arm & $N$ & Qualifying & Qualifying and & per 1000 & Cost of & Cost per & Qualifying, strict\\
+ & & $n$ (95\% CI per 1000) & new & (new) & generation & qualifying & $t$ window$^\ddagger$\\\midrule
+MatterGen, $\Eg$-conditioned & 3{,}500 & 9 (1.4--4.9) & 0 & 0.0 & 13.6 V100-h & 1.51 & 5 \\
+MatterGen, unconditional & 1{,}200 & 1 (0.1--4.7) & 0 & 0.0 & 2.4 V100-h & 2.36 & 1 \\
+MatterGen, $\gamma{=}4$ & 800 & 6 (3.4--16.3) & 1 & 1.2 & 3.1 V100-h & 0.51 & 3 \\
+Prototype substitution & 4{,}000 & 91 (18.6--27.8) & 71 & 17.8 & 274 s CPU$^{\dagger}$ & 3.0 s & 72 \\
+Legacy 45-D + prototypes & 4{,}071 & 29 (5.0--10.2) & 15 & 3.7 & CPU, not timed & -- & 23 \\
+\bottomrule\end{tabular}

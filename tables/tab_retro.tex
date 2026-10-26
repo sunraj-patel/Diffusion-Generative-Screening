@@ -1,0 +1,15 @@
+\begin{tabular}{@{}llrrrr@{}}\toprule
+ Pool & Rule & Hit rate & True $|\Eg-1.4|$ (eV) & True $\Ehull$ & Diversity\\\midrule
+random split & random & 0.05 & 1.47 & 0.105 & 0.84 \\
+ & gap only & 0.80 & 0.09 & 0.051 & 0.84 \\
+ & gap + hull gate & 1.00 & 0.10 & 0.032 & 0.84 \\
+ & risk-adjusted gap + hull gate & 1.00 & 0.09 & 0.035 & 0.91 \\
+ & proposed & 0.80 & 0.15 & 0.021 & 0.89 \\
+\midrule
+B-site disjoint & random & 0.01 & 1.40 & 0.360 & 0.70 \\
+ & gap only & 0.00 & 1.51 & 0.164 & 0.69 \\
+ & gap + hull gate & 0.00 & 1.69 & 0.000 & 0.72 \\
+ & risk-adjusted gap + hull gate & 0.00 & 1.51 & 0.017 & 0.64 \\
+ & proposed & 0.00 & 1.93 & 0.037 & 0.91 \\
+
+\bottomrule\end{tabular}

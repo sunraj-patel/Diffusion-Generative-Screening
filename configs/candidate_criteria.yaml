@@ -1,0 +1,18 @@
+# Candidate-prioritisation criteria, fixed BEFORE the shortlist was computed.
+population: pooled unique compositions from method E_adaptive_propnov and D_propnov_w2, seeds 0-9, target 1.4 eV (nearest-element decoder)
+eligibility:
+  joint_valid: true            # charge balance AND 0.8 <= t_avg <= 1.0
+  not_in_training_set: true    # role-agnostic composition not among the 1215 generator-training compositions
+  exclude_A_equals_B: true
+  shannon_tolerance_within: [0.8, 1.05]   # secondary check with oxidation-state-specific Shannon radii (pymatgen)
+  both_models_within_eV_of_target: 0.75   # guidance ensemble AND independent ExtraTrees evaluator
+score:   # lower is better
+  consensus_gap: "|mean(ens,ind) - target|"
+  disagreement: "0.5 * |ens - ind|"
+  uncertainty: "ensemble std (bandgap)"
+  note: "predicted E_hull NOT used (predictor not better than mean baseline under rare-earth shift)"
+diversity:
+  max_per_AX_pair: 2
+  max_per_anion: 6
+  dchem_note: "D_chem is reported, not rewarded: ties are not broken in favour of larger distance"
+shortlist_size: 15

@@ -1,0 +1,9 @@
+\begin{tabular}{@{}lcccccc@{}}\toprule
+ & \multicolumn{3}{c}{Random split ($n=576$)} & \multicolumn{3}{c}{B-site disjoint ($n=290$)}\\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Predictor & MAE [95\% CI] & $R^2$ & MAE, 0.5--3~eV & MAE [95\% CI] & $R^2$ & MAE, 0.5--3~eV\\\midrule
+ALIGNN ensemble & 0.25 [0.20, 0.30] & 0.85 & 0.28 & 0.55 [0.43, 0.67] & 0.05 & 1.33 \\
+Composition RF & 0.58 [0.53, 0.63] & 0.76 & 0.46 & 1.08 [0.98, 1.18] & -0.37 & 0.75 \\
+Composition kNN & 1.12 [1.04, 1.20] & 0.29 & 0.81 & 1.41 [1.27, 1.57] & -1.48 & 0.87 \\
+Training median & 1.43 [1.33, 1.54] & -0.23 & 1.07 & 0.91 [0.83, 1.01] & -0.02 & 0.66 \\
+Constant zero & 1.52 [1.37, 1.67] & -0.74 & 1.73 & 0.53 [0.40, 0.68] & -0.19 & 1.35 \\
+\bottomrule\end{tabular}

@@ -1,0 +1,7 @@
+id,formula,natoms_original,natoms_standardized,spacegroup_symprec0p05,volume_original,volume_standardized,rms_disp_A,max_disp_A,min_dist_A,family_original,family_standardized,B_sites,A_sites
+PRV-11,SrTiO3,5,5,Pm-3m,61.4395696360095,61.4396894203424,0.00177940282993297,0.00287054594211134,1.972966335,3D corner-sharing perovskite,3D corner-sharing perovskite,Ti,Sr
+PRV-09,KNbO3,5,5,Pm-3m,66.94716569443771,66.94719492526022,0.0010039466036858207,0.0013982589430005872,2.0302404016666666,3D corner-sharing perovskite,3D corner-sharing perovskite,Nb,K
+PRV-07,Cs2NaRhBr6,10,10,Fm-3m,338.90997211945324,338.9102644929147,0.0022259083317720083,0.003739744104293803,2.5382324287189766,3D corner-sharing perovskite,3D corner-sharing perovskite,"Na,Rh",Cs
+PRV-06,Tl3AsCl6,10,10,Fm-3m,334.71748278619765,334.7178859873493,0.0041699484694856645,0.009035226380061658,2.516442308779525,3D corner-sharing perovskite,3D corner-sharing perovskite,"As,Tl",Tl
+PRV-14,TlPbCl3,5,5,Amm2,183.38666278585697,183.38701159028807,0.006529962432338459,0.008228865845101567,2.830103921630022,3D corner-sharing perovskite,3D corner-sharing perovskite,Pb,Tl
+CMB-15,Cs3Mg2CdBr9,15,15,P-3m1,497.52954889122907,497.44487915637137,0.0019043095835744833,0.002992783397032405,2.7117601763214543,3D corner-sharing perovskite,3D corner-sharing perovskite,"Cd,Mg",Cs
