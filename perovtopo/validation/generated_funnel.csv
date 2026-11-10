@@ -1,0 +1,5 @@
+pool,classifier,n,stoichiometry,topology,mixed_b,mixed_b_fraction
+gap14,default,3500,458,198,131,0.6616161616161617
+gap14,strict_corner,3500,458,196,129,0.6581632653061225
+base,default,1200,58,13,10,0.7692307692307693
+base,strict_corner,1200,58,13,10,0.7692307692307693

@@ -1,0 +1,36 @@
+default/tier1 {'n': 70, 'tp': 48, 'fp': 0, 'tn': 20, 'fn': 2, 'recall': 0.96, 'specificity': 1.0, 'precision': 1.0, 'accuracy': 0.971}
+default/tier2 {'n': 4270, 'tp': 3600, 'fp': 29, 'tn': 440, 'fn': 201, 'recall': 0.947, 'specificity': 0.938, 'precision': 0.992, 'accuracy': 0.946}
+default/tier2_ehull<=0.1 {'n': 2946, 'tp': 2374, 'fp': 29, 'tn': 404, 'fn': 139, 'recall': 0.945, 'specificity': 0.933, 'precision': 0.988, 'accuracy': 0.943}
+strict_corner/tier1 {'n': 70, 'tp': 48, 'fp': 0, 'tn': 20, 'fn': 2, 'recall': 0.96, 'specificity': 1.0, 'precision': 1.0, 'accuracy': 0.971}
+strict_corner/tier2 {'n': 4270, 'tp': 3600, 'fp': 0, 'tn': 469, 'fn': 201, 'recall': 0.947, 'specificity': 1.0, 'precision': 1.0, 'accuracy': 0.953}
+strict_corner/tier2_ehull<=0.1 {'n': 2946, 'tp': 2374, 'fp': 0, 'tn': 433, 'fn': 139, 'recall': 0.945, 'specificity': 1.0, 'precision': 1.0, 'accuracy': 0.953}
+b_tol 1.05 tier1 acc 0.900  tier2 recall 0.927 spec 0.940
+b_tol 1.1 tier1 acc 0.929  tier2 recall 0.930 spec 0.938
+b_tol 1.15 tier1 acc 0.957  tier2 recall 0.933 spec 0.938
+b_tol 1.2 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+b_tol 1.25 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+b_tol 1.3 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+b_tol 1.35 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+b_tol 1.4 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+b_tol 1.5 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+a_tol 1.1 tier1 acc 0.686  tier2 recall 0.860 spec 0.938
+a_tol 1.2 tier1 acc 0.943  tier2 recall 0.898 spec 0.938
+a_tol 1.3 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+a_tol 1.4 tier1 acc 0.986  tier2 recall 0.963 spec 0.938
+a_tol 1.5 tier1 acc 0.986  tier2 recall 0.970 spec 0.938
+a_tol 1.7 tier1 acc 0.957  tier2 recall 0.973 spec 0.938
+a_min_cn 6 tier1 acc 0.957  tier2 recall 0.963 spec 0.938
+a_min_cn 7 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+a_min_cn 8 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+a_min_cn 9 tier1 acc 0.814  tier2 recall 0.868 spec 0.938
+a_min_cn 10 tier1 acc 0.743  tier2 recall 0.865 spec 0.938
+a_min_cn 12 tier1 acc 0.686  tier2 recall 0.863 spec 0.938
+bx_tol 1.05 tier1 acc 0.900  tier2 recall 0.927 spec 0.940
+bx_tol 1.1 tier1 acc 0.929  tier2 recall 0.930 spec 0.938
+bx_tol 1.15 tier1 acc 0.957  tier2 recall 0.933 spec 0.938
+bx_tol 1.2 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+bx_tol 1.25 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+bx_tol 1.3 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+bx_tol 1.35 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+bx_tol 1.4 tier1 acc 0.971  tier2 recall 0.935 spec 0.938
+bx_tol 1.5 tier1 acc 0.971  tier2 recall 0.935 spec 0.938

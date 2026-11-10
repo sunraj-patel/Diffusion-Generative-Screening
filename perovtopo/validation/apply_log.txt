@@ -1,0 +1,42 @@
+gap14 default {'n': 3500, 'stoichiometry': 458, 'topology': 198, 'mixed_b': 131, 'mixed_b_fraction': 0.6616161616161617}
+gap14 strict_corner {'n': 3500, 'stoichiometry': 458, 'topology': 196, 'mixed_b': 129, 'mixed_b_fraction': 0.6581632653061225}
+gap14 b_tol 1.15 194
+gap14 b_tol 1.2 197
+gap14 b_tol 1.25 198
+gap14 b_tol 1.3 198
+gap14 b_tol 1.4 198
+gap14 a_tol 1.2 193
+gap14 a_tol 1.3 198
+gap14 a_tol 1.4 201
+gap14 a_tol 1.5 207
+gap14 a_min_cn 6 231
+gap14 a_min_cn 7 202
+gap14 a_min_cn 8 198
+gap14 a_min_cn 9 194
+gap14 a_min_cn 10 191
+gap14 bx_tol 1.15 194
+gap14 bx_tol 1.2 197
+gap14 bx_tol 1.25 198
+gap14 bx_tol 1.3 198
+gap14 bx_tol 1.4 198
+base default {'n': 1200, 'stoichiometry': 58, 'topology': 13, 'mixed_b': 10, 'mixed_b_fraction': 0.7692307692307693}
+base strict_corner {'n': 1200, 'stoichiometry': 58, 'topology': 13, 'mixed_b': 10, 'mixed_b_fraction': 0.7692307692307693}
+base b_tol 1.15 13
+base b_tol 1.2 13
+base b_tol 1.25 13
+base b_tol 1.3 13
+base b_tol 1.4 13
+base a_tol 1.2 12
+base a_tol 1.3 13
+base a_tol 1.4 13
+base a_tol 1.5 14
+base a_min_cn 6 20
+base a_min_cn 7 13
+base a_min_cn 8 13
+base a_min_cn 9 11
+base a_min_cn 10 10
+base bx_tol 1.15 13
+base bx_tol 1.2 13
+base bx_tol 1.25 13
+base bx_tol 1.3 13
+base bx_tol 1.4 13

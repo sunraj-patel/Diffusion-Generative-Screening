@@ -1,0 +1,11 @@
+[project]
+name = "perovtopo"
+version = "0.1.0"
+description = "Connectivity-based identification of 3D corner-sharing ABX3 perovskites, with site-resolved metrics and threshold sensitivity"
+requires-python = ">=3.9"
+dependencies = ["pymatgen", "numpy"]
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+packages = ["perovtopo"]

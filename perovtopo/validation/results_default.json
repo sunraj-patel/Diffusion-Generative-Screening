@@ -1,0 +1,68 @@
+{
+ "default/tier1": {
+  "n": 70,
+  "tp": 48,
+  "fp": 0,
+  "tn": 20,
+  "fn": 2,
+  "recall": 0.96,
+  "specificity": 1.0,
+  "precision": 1.0,
+  "accuracy": 0.9714285714285714
+ },
+ "default/tier2": {
+  "n": 4270,
+  "tp": 3600,
+  "fp": 29,
+  "tn": 440,
+  "fn": 201,
+  "recall": 0.9471191791633781,
+  "specificity": 0.9381663113006397,
+  "precision": 0.9920088178561587,
+  "accuracy": 0.9461358313817331
+ },
+ "default/tier2_ehull<=0.1": {
+  "n": 2946,
+  "tp": 2374,
+  "fp": 29,
+  "tn": 404,
+  "fn": 139,
+  "recall": 0.9446876243533625,
+  "specificity": 0.9330254041570438,
+  "precision": 0.9879317519766958,
+  "accuracy": 0.9429735234215886
+ },
+ "strict_corner/tier1": {
+  "n": 70,
+  "tp": 48,
+  "fp": 0,
+  "tn": 20,
+  "fn": 2,
+  "recall": 0.96,
+  "specificity": 1.0,
+  "precision": 1.0,
+  "accuracy": 0.9714285714285714
+ },
+ "strict_corner/tier2": {
+  "n": 4270,
+  "tp": 3600,
+  "fp": 0,
+  "tn": 469,
+  "fn": 201,
+  "recall": 0.9471191791633781,
+  "specificity": 1.0,
+  "precision": 1.0,
+  "accuracy": 0.9529274004683841
+ },
+ "strict_corner/tier2_ehull<=0.1": {
+  "n": 2946,
+  "tp": 2374,
+  "fp": 0,
+  "tn": 433,
+  "fn": 139,
+  "recall": 0.9446876243533625,
+  "specificity": 1.0,
+  "precision": 1.0,
+  "accuracy": 0.9528173794976239
+ }
+}

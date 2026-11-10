@@ -1,0 +1,1 @@
+n=171 default_perovskite=171 strict_perovskite=169 flagged=[('cond14_s5_gen_163', 'Sr4Ni2RuWO12'), ('cond14_s5_gen_664', 'Sr4Cu(RuO4)3')]
