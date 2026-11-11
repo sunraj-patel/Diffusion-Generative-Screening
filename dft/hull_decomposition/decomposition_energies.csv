@@ -1,0 +1,5 @@
+compound,products,dE_eV_per_fu,dE_eV_per_atom
+SrTiO3 (PRV-11),1SrO + 1TiO2,-1.1054,-0.2211
+"SrTiO3 (PRV-11), rutile",1SrO + 1TiO2_rutile,-1.2015,-0.2403
+Cs2NaRhBr6 (PRV-07),2CsBr + 1NaBr + 1RhBr3,-0.0083,-0.0008
+Cs3Mg2CdBr9 (CMB-15),3CsBr + 2MgBr2 + 1CdBr2,-0.0852,-0.0057
