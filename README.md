@@ -15,4 +15,4 @@ Install the classifier with `pip install -e perovtopo` and run its tests with `p
 Details, validation results and caveats are in `perovtopo/README.md` and `perovtopo/validation/README.md`.
 
 The Materials Project structures in `perovtopo/validation/structures.jsonl.gz` come from the Materials Project database
-(CC BY 4.0, snapshot 2026.04.13). Third-party data are not redistributed beyond this subset. A code licence has not yet been chosen.
+(CC BY 4.0, snapshot 2026.04.13). Third-party data are not redistributed beyond this subset. Code is released under the MIT licence (`LICENSE`). Derived data tables and generated-structure summaries in this repository are shared under CC BY 4.0, with attribution to this repository and to the Materials Project for the structure subset; the Materials Project data keep their own CC BY 4.0 terms.

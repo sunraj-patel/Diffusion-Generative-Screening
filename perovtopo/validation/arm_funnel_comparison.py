@@ -2,7 +2,7 @@
 Usage: python arm_funnel_comparison.py <work_dir> <out.csv>"""
 import json, sys, csv
 work, out = sys.argv[1], sys.argv[2]
-ARMS = [("base", "Unconditional"), ("gap14", "Conditioned, gamma=2"), ("gap14g4", "Conditioned, gamma=4"), ("enum", "Prototype substitution")]
+ARMS = [("base", "Unconditional"), ("gap14g0", "Conditioned, gamma=0"), ("gap14", "Conditioned, gamma=2"), ("gap14g4", "Conditioned, gamma=4"), ("enum", "Prototype substitution")]
 rows = []
 for a, lab in ARMS:
     f = {x["stage"]: x["n"] for x in json.load(open(f"{work}/{a}_funnel.json"))}

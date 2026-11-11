@@ -2,6 +2,8 @@
 name = "perovtopo"
 version = "0.1.0"
 description = "Connectivity-based identification of 3D corner-sharing ABX3 perovskites, with site-resolved metrics and threshold sensitivity"
+license = {text = "MIT"}
+authors = [{name = "Sunraj Patel"}, {name = "Krishanu Biswas"}]
 requires-python = ">=3.9"
 dependencies = ["pymatgen", "numpy"]
 [build-system]

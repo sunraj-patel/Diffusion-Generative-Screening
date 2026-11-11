@@ -1,5 +1,6 @@
 arm,n_generated,stoichiometry,topology,unique,stoich_per_1000,topology_per_1000,unique_per_1000,stoich_over_topology,rel_to_gamma2_stoich,rel_to_gamma2_topology
 Unconditional,1200,58,13,12,48.3,10.8,10.0,4.46,0.37,0.19
+"Conditioned, gamma=0",1200,93,39,32,77.5,32.5,26.7,2.38,0.59,0.57
 "Conditioned, gamma=2",3500,458,198,171,130.9,56.6,48.9,2.31,1.0,1.0
 "Conditioned, gamma=4",800,99,30,24,123.8,37.5,30.0,3.3,0.95,0.66
 Prototype substitution,4000,4000,3945,2454,1000.0,986.2,613.5,1.01,7.64,17.42

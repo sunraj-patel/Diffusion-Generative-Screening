@@ -1,0 +1,19 @@
+set,method,tp,fn,fp,tn,recall,specificity
+tier 1,stoichiometry only,46,0,20,0,1.0,0.0
+tier 1,prototype matching,46,0,2,18,1.0,0.9
+tier 1,connectivity (default),44,2,0,20,0.957,1.0
+tier 1,connectivity (strict),44,2,0,20,0.957,1.0
+tier 2,stoichiometry only,3800,0,469,0,1.0,0.0
+tier 2,prototype matching,3520,280,5,464,0.926,0.989
+tier 2,connectivity (default),3599,201,29,440,0.947,0.938
+tier 2,connectivity (strict),3599,201,0,469,0.947,1.0
+tier all,stoichiometry only,3846,0,489,0,1.0,0.0
+tier all,prototype matching,3566,280,7,482,0.927,0.986
+tier all,connectivity (default),3643,203,29,460,0.947,0.941
+tier all,connectivity (strict),3643,203,0,489,0.947,1.0
+generated pool (n=3500),stoichiometry only,458,,,,,
+generated pool (n=3500),prototype matching,223,,,,,
+generated pool (n=3500),connectivity (default),198,,,,,
+generated pool (n=3500),both prototype and connectivity,163,,,,,
+generated pool (n=3500),connectivity only (no prototype match),35,,,,,
+generated pool (n=3500),prototype only (no connectivity),60,,,,,
